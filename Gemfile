@@ -38,8 +38,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'simple_form', '~> 4.1'
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 gem 'paperclip', '~> 6.1'
+gem 'cocoon', '~> 1.2', '>= 1.2.12'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
